@@ -22,7 +22,27 @@
   </head>
   <body>
     <div class="player-container">
-      <div class="image-container"></div>
+      <!-- Songs -->
+      <div class="img-container">
+        <img src="images/Bellyache.jpg" alt="Album Art" />
+      </div>
+      <h2 id="title">Bellyache</h2>
+      <h3 id="artist">Billie Eilish</h3>
+      <audio src="songs/Bellyache.mp3"></audio>
+      <!-- Progress -->
+      <div class="progress-container" id="progress-container">
+        <div class="progress" id="progress"></div>
+        <div class="duration-wrapper">
+          <span id="current-time">0:00</span>
+          <span id="duration">2:59</span>
+        </div>
+      </div>
+      <!-- Controls -->
+      <div class="player-controls">
+        <i title="Previous" class="fas fa-backward" id="prev"></i>
+        <i title="Play" class="fas fa-play main-button" id="play"></i>
+        <i title="Next" class="fas fa-forward" id="next"></i>
+      </div>
     </div>
     <!-- Script -->
     <script src="script.js"></script>
